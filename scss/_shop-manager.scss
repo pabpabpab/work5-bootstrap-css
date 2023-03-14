@@ -1,0 +1,130 @@
+$btn-shop-add-height: 2.25rem;
+
+.btn-shop-add {
+  width: 11.6rem;
+  height: $btn-shop-add-height;
+  margin: 0 0 2.25rem 0;
+
+  & img {
+    width: 0.69rem;
+    height: 1.3rem;
+    border: 0;
+  }
+
+  & span {
+    display: block;
+    padding: 0 0 0 0.75rem;
+  }
+}
+
+.shop-manager-h1 {
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: $h1-h6-color-primary;
+  padding: 0;
+  margin: 0 0 1.6rem 0;
+}
+
+.table-shop-manager-wrapper {
+  min-width: 62.5rem;
+  width: 85%;
+  max-width: 100%;
+  background-color: white;
+  @include shadow-mixin(0 11px 21px rgba(40, 40, 40, 0.07));
+  padding: 1.9em 2.2em 0.68em 2.2em;
+  @include border-radius-mixin(.25rem);
+}
+
+.table-shop-manager {
+  min-width: 55rem;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #6E6E6E;
+
+  & thead th {
+    padding: 0 0 0.54em 0;
+    color: $h1-h6-color-primary;
+  }
+
+  & thead th:nth-child(1) {
+    width: 13%;
+  }
+  & thead th:nth-child(2) {
+    width: 24%;
+  }
+  & thead th:nth-child(3) {
+    width: 30%;
+  }
+
+  & tbody th {
+    font-weight: 500;
+    color: #6E6E6E;
+    padding: 1.35em 1.35em 1.35em 0;
+  }
+
+  & tbody tr {
+    border-bottom: 1px solid rgba(177, 177, 177, 0.35);
+  }
+
+  & tbody tr:last-child {
+    border-bottom: 0;
+  }
+
+  & td {
+    padding: 1.35em 1.35em 1.35em 0;
+  }
+}
+
+
+@include media-breakpoint-down(xxl) {
+  .table-shop-manager-wrapper {
+    min-width: unset;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@include media-breakpoint-between(xl, xxl) {
+  .table-shop-manager {
+    min-width: 50rem;
+  }
+}
+
+.btn-shop-edit {
+  width: 9.3rem;
+  height: 2.25rem;
+  margin: 0 0.63rem 0 0;
+
+  & img {
+    width: 0.98rem;
+    height: 1.25rem;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+  }
+
+  & span {
+    display: block;
+    padding: 0 0 0 0.87rem;
+  }
+}
+
+.btn-shop-cancel {
+  width: 9.3rem;
+  height: 2.25rem;
+  margin: 0;
+
+  & img {
+    width: 0.89rem;
+    height: 0.95rem;
+    border: 0;
+  }
+
+  & span {
+    display: block;
+    padding: 0 0 0 0.87rem;
+  }
+}

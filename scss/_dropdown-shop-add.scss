@@ -1,0 +1,137 @@
+$form-shop-add-width: 39rem;
+
+.form-shop-add {
+  width: $form-shop-add-width;
+  font-size: 0.875rem;
+  padding: 2.14em 1.4em 2.5em 2.14em;
+  @include shadow-mixin(0 30px 38px rgba(37, 37, 37, 0.1));
+  border: none;
+  @include border-radius-mixin(0.25rem);
+  top: $btn-shop-add-height + 0.8rem;
+
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 3.4em 0;
+
+    & h5 {
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: $h1-h6-color-primary;
+      line-height: 1.25rem;
+      padding: 0;
+      margin: 0;
+    }
+
+    & img {
+      width: 1.1rem;
+      height: 1.1rem;
+      cursor: pointer;
+    }
+  }
+
+  & label {
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    font-weight: 500;
+    color: $h1-h6-color-primary;
+    margin-bottom: 0.5em;
+  }
+
+  &__template-and-schema-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0 2.1em 0;
+  }
+
+  &__template-col {
+    width: 15rem;
+  }
+
+  &__schema-col {
+    width: 15rem;
+  }
+
+  & select {
+    background-size: 9px;
+  }
+
+  &__domen-row {
+    margin: 0 0 3em 0;
+    padding: 0 !important;
+  }
+
+  &__domen-group {
+    margin: 0 0 1.9em 0;
+  }
+
+  &__domen-group-text {
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    font-weight: 500;
+    padding-left: 3.3em;
+    padding-right: 3.3em;
+  }
+
+  &__domen-input-text {
+    background-color: #E6E6E9;
+  }
+
+  &__domen-help {
+    display: flex;
+    padding: 0 !important;
+
+    & img {
+      height: 3.2rem;
+      width: 3.2rem;
+      margin: 0;
+    }
+
+    & p {
+      font-size: 0.75rem;
+      line-height: 1.1rem;
+      color: #7D7D7D;
+      font-weight: 500;
+      padding: 0 0 0 1.33em;
+
+      & a {
+        color: $custom-indigo-color;
+      }
+    }
+  }
+
+  &__submit-row {
+    display: flex;
+  }
+
+  &__cancel-btn {
+    width: 9.4rem;
+    height: $btn-shop-add-height;
+    margin: 0 0.63rem 0 0;
+  }
+
+  &__submit-btn {
+    width: 9.4rem;
+    height: $btn-shop-add-height;
+    margin: 0;
+  }
+}
+
+
+@media screen and (max-width: $form-shop-add-width + 3rem) {
+  .form-shop-add {
+    width: 90vw;
+
+    &__template-col {
+      margin: 0 0 1.2em 0;
+    }
+
+    &__domen-group-text {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+}
+

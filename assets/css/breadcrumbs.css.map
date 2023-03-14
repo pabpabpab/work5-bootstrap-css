@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "breadcrumbs.css",
+	"sources": [
+		"../../scss/breadcrumbs.scss",
+		"../../scss/_vars-custom.scss"
+	],
+	"sourcesContent": [
+		"@import \"vars-custom\";\r\n\r\n.breadcrumb-custom {\r\n  font-weight: 500 !important;\r\n  color: $breadcrumb-color-custom !important;\r\n  line-height: 0.75rem;\r\n}\r\n\r\n.breadcrumb-link-custom {\r\n  position: relative !important;\r\n  color: $breadcrumb-color-custom !important;\r\n}\r\n\r\n.breadcrumb-link-custom::after {\r\n  content: \"\";\r\n  display: block;\r\n  position: absolute;\r\n  width: 0.44rem;\r\n  height: 0.44rem;\r\n  right: -0.63rem;\r\n  top: 0.31rem;\r\n  border-top: 1.7px solid $breadcrumb-color-custom;\r\n  border-right: 1.7px solid $breadcrumb-color-custom;\r\n  transform: rotate(45deg);\r\n}",
+		"$content-wrapper-bg-color: #F8FAFF;\r\n$content-wrapper-paddings: 1.5em 1.4% 50px 5%;\r\n//$content-wrapper-paddings: 22px 1.4% 50px 5%;\r\n\r\n$navbar-logo-and-toggler-wrapper-paddings: 21px 25px 23px 25px !important;\r\n$custom-indigo-color: #6666CC;\r\n//$nav-link-color: #7D7D7D;\r\n\r\n$breadcrumb-color-custom: #656565;\r\n\r\n"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,kBAAkB,AAAC,CACjB,WAAW,CAAE,cAAc,CAC3B,KAAK,CCImB,OAAO,CDJC,UAAU,CAC1C,WAAW,CAAE,OAAO,CACrB,AAED,AAAA,uBAAuB,AAAC,CACtB,QAAQ,CAAE,mBAAmB,CAC7B,KAAK,CCFmB,OAAO,CDEC,UAAU,CAC3C,AAED,AAAA,uBAAuB,AAAA,OAAO,AAAC,CAC7B,OAAO,CAAE,EAAE,CACX,OAAO,CAAE,KAAK,CACd,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,OAAO,CACd,MAAM,CAAE,OAAO,CACf,KAAK,CAAE,QAAQ,CACf,GAAG,CAAE,OAAO,CACZ,UAAU,CAAE,KAAK,CAAC,KAAK,CCbC,OAAO,CDc/B,YAAY,CAAE,KAAK,CAAC,KAAK,CCdD,OAAO,CDe/B,SAAS,CAAE,aAAa,CACzB"
+}

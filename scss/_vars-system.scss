@@ -1,0 +1,33 @@
+$font-family-base: Roboto;
+
+$link-decoration: none;
+$enable-shadows: true;
+$btn-border-radius: .25rem;
+
+$navbar-padding-y: 0; //$spacer * .5;
+$navbar-padding-x: 0; // null;
+$navbar-nav-link-padding-x: 0; // .5rem;
+$navbar-toggler-font-size: 1rem;
+
+$breadcrumb-font-size: 0.75rem;
+$breadcrumb-margin-bottom: 1rem;
+$breadcrumb-divider-color: $breadcrumb-color-custom;
+$breadcrumb-active-color: $breadcrumb-color-custom;
+$breadcrumb-item-padding-x: 0.3rem;
+$breadcrumb-divider: url("data:image/svg+xml,%3Csvg width='8' height='9' viewBox='0 0 8 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 4.5L1 8' stroke='%23656565' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+
+$input-border-radius: 0.2rem;
+$input-font-size: 14px;
+$input-font-weight: 500;
+$input-placeholder-color: #7D7D7D;
+
+$form-select-font-size: 0.75rem;
+$form-select-color: #7C7C7C;
+$form-select-indicator-color: #656565;
+$form-select-indicator: url("data:image/svg+xml,%3Csvg viewBox='0 0 9 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 1L4.5 6L1 1' stroke='%23656565' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+$form-select-padding-y: 0.8em;
+$form-select-padding-x:  1.1em;
+
+$input-group-addon-color: #FFFFFF;
+$input-group-addon-bg: $custom-indigo-color;
+$input-group-addon-border-color: $custom-indigo-color;

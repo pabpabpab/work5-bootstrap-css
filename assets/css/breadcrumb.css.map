@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "breadcrumb.css",
+	"sources": [
+		"../../scss/breadcrumb.scss"
+	],
+	"sourcesContent": [
+		".breadcrumb-custom {\r\n  font-weight: 500 !important;\r\n  color: #656565 !important;\r\n}\r\n\r\n.breadcrumb-link-custom {\r\n  //color: $breadcrumb-color-custom !important;\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,kBAAkB,AAAC,CACjB,WAAW,CAAE,cAAc,CAC3B,KAAK,CAAE,kBAAkB,CAC1B"
+}

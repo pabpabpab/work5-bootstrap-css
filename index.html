@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/starter.css">
+    <title>Bootstrap npm starter</title>
+</head>
+<body>
+<div class="container-fluid min-vh-100 p-0 d-flex flex-column flex-xl-row align-items-start">
+
+    <!-- ----------------------------------Left navbar-------------------------------- -->
+    <nav class="navbar navbar-expand-xl nav-left">
+        <div class="container-fluid flex-column p-0">
+
+            <!-- ---------------------Navbar logo and toggler------------------- -->
+            <div class="container-fluid container-logo-and-toggler d-flex flex-row justify-content-between align-items-center">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/img/logo-work5.png" alt="Лого Work5" width="82" height="32">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <!-- ---------------------/Navbar logo and toggler------------------- -->
+
+            <!-- ---------------------------Navbar items------------------------- -->
+            <div class="container-fluid p-0 collapse navbar-collapse d-none d-xl-flex pb-5" id="navbarSupportedContent">
+                <ul class="navbar-nav w-100 flex-column mb-auto">
+                    <li class="nav-item-custom">
+                        <span></span>
+                        <img src="/assets/icons/home.svg" alt="">
+                        <a class="nav-link" href="#1">Главная</a>
+                    </li>
+                    <li class="nav-item-custom">
+                        <span class="nav-item-indicator-active"></span>
+                        <img src="/assets/icons/cart.svg" alt="">
+                        <a class="nav-link active" aria-current="page" href="#2">Мои магазины</a>
+                    </li>
+                    <li class="nav-item-custom">
+                        <span></span>
+                        <img src="/assets/icons/megafon.svg" alt="">
+                        <a class="nav-link" href="#3">Промоматериалы</a>
+                    </li>
+
+                    <li class="nav-item-custom">
+                        <span></span>
+                        <img src="/assets/icons/diagram.svg" alt="">
+                        <a class="nav-link" href="#4">Статистика</a>
+                    </li>
+
+                    <li class="nav-item-custom">
+                        <span></span>
+                        <img src="/assets/icons/wallet.svg" alt="">
+                        <a class="nav-link" href="#5">Баланс</a>
+                    </li>
+
+                    <li class="nav-item-custom">
+                        <span></span>
+                        <img src="/assets/icons/avatar.svg" alt="">
+                        <a class="nav-link" href="#6">Персональные данные</a>
+                    </li>
+
+                    <li class="nav-item-custom">
+                        <span></span>
+                        <img src="/assets/icons/question.svg" alt="">
+                        <a class="nav-link" href="#7">FAQ</a>
+                    </li>
+
+                    <li class="nav-item-custom">
+                        <span></span>
+                        <img src="/assets/icons/headset.svg" alt="">
+                        <a class="nav-link" href="#8">Техподдержка</a>
+                    </li>
+
+                    <li class="nav-item-custom">
+                        <span></span>
+                        <img src="/assets/icons/exit.svg" alt="">
+                        <a class="nav-link" href="#9">Выход</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- -------------------------/Navbar items----------------------- -->
+        </div>
+    </nav>
+    <!-- ----------------------------------/Left navbar-------------------------------- -->
+
+
+    <!-- ----------------------------------Right content-------------------------------- -->
+    <div class="container-fluid container-content-wrapper align-self-stretch flex-grow-1">
+
+        <!-- -------------------Breadcrumbs, message icon and person-------------------- -->
+        <div class="breadcrumb-message-and-person-wrapper d-flex flex-column flex-md-row justify-content-md-between">
+
+            <!-- -------------------Breadcrumbs-------------------- -->
+            <nav class="d-flex justify-content-xl-between" aria-label="breadcrumb">
+                <ol class="breadcrumb breadcrumb-custom p-0">
+                    <li class="breadcrumb-item">
+                        <a href="#" class="breadcrumb-link-custom">Главная</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        Мои магазины
+                    </li>
+                </ol>
+            </nav>
+            <!-- -------------------/Breadcrumbs-------------------- -->
+
+            <!-- -------------------Message icon and person-------------------- -->
+            <div class="message-icon-and-person-wrapper">
+
+                <!-- -------------Message icon------------ -->
+                <div class="card card-message-icon">
+                    <a href="/messages" class="card-message-icon-stretched-link"></a>
+                    <a href="/messages" class="card-message-icon-envelope-link">
+                        <img src="/assets/icons/envelope.svg" alt="">
+                        <span></span>
+                    </a>
+                </div>
+                <!-- -------------/Message icon------------ -->
+
+                <!-- -----------------Person card----------------- -->
+                <div class="card card-person overflow-hidden">
+                    <div class="row g-0 h-100">
+                        <div class="col-3 d-flex justify-content-end align-items-center">
+                            <img src="assets/img/maksim.png" class="card-img-person" alt="">
+                        </div>
+                        <div class="col-9 d-flex align-items-center">
+                            <div class="card-body">
+                                <a href="#" class="card-link-person text-nowrap">
+                                    Максим Добжанский
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="card-person-overflow-x-stub"></span>
+                </div>
+                <!-- -----------------/Person card----------------- -->
+
+            </div>
+            <!-- -------------------/Message icon and person-------------------- -->
+        </div>
+        <!-- -------------------Breadcrumbs, message icon and person-------------------- -->
+
+
+        <!-- -------------------Add shop button and dropdown form-------------------- -->
+        <div class="dropdown dropdown-shop-add">
+
+            <button type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                    class="btn btn-custom btn-custom-primary btn-shop-add">
+                <img src="assets/icons/button-icon-plus.svg" alt="">
+                <span>Создать свой магазин</span>
+            </button>
+
+            <!-- -------------------Dropdown form for adding shop-------------------- -->
+            <form class="dropdown-menu d-block form-shop-add">
+
+                <div class="form-shop-add__header">
+                    <h5>Создать магазин</h5>
+                    <img src="assets/icons/cancel-round.svg" alt="">
+                </div>
+
+                <div class="form-shop-add__template-and-schema-row">
+                    <div class="form-shop-add__template-col">
+                        <label for="input1">Шаблон</label>
+                        <select class="form-select" id="input1">
+                            <option selected>Стандартный</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+
+                    <div class="form-shop-add__schema-col">
+                        <label for="input2">Цветовая схема</label>
+                        <select class="form-select" id="input2">
+                            <option selected>Классическая</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-shop-add__domen-row">
+                    <label for="basic-url">Домен</label>
+                    <div class="input-group form-shop-add__domen-group">
+                        <input type="text" class="form-control form-shop-add__domen-input-text"
+                               placeholder="Например: ivangrozniy"
+                               id="basic-url" aria-describedby="basic-addon3">
+                        <span class="input-group-text form-shop-add__domen-group-text" id="basic-addon3">.work5.ru</span>
+                    </div>
+                    <div class="form-shop-add__domen-help">
+                        <img src="assets/icons/warning.svg">
+                        <p class="flex-grow-1 m-0">
+                            В&nbsp;названии домена разрешены латиница и&nbsp;“&ndash;”,
+                            запрещается использовать словосочетание Work&nbsp;5.
+                            После создания магазина Вы&nbsp;сможете прикрутить свой домен
+                            (например ivangrozniy.ru). Подробнее по&nbsp;<a href="#">ссылке</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="form-shop-add__submit-row">
+                    <button type="button" class="btn btn-custom btn-custom-secondary form-shop-add__cancel-btn">
+                        Отмена
+                    </button>
+                    <button type="button" class="btn btn-custom btn-custom-primary form-shop-add__submit-btn">
+                        Создать
+                    </button>
+                </div>
+
+            </form>
+            <!-- -------------------/Dropdown form for adding shop-------------------- -->
+
+        </div>
+        <!-- -------------------/Add shop button and dropdown form-------------------- -->
+
+
+        <h1 class="shop-manager-h1">
+            Управление магазинами
+        </h1>
+
+
+        <!-- ------------------------------Shops table-------------------------------- -->
+        <div class="table-responsive table-shop-manager-wrapper">
+            <table class="table-shop-manager">
+                <thead>
+                <tr>
+                    <th scope="col">№</th>
+                    <th scope="col">Название</th>
+                    <th scope="col">Адрес</th>
+                    <th scope="col">Действие</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">12345</th>
+                    <td>Дипломная работа</td>
+                    <td class="text-break">http://www.work5.ru/services</td>
+                    <td class="d-flex">
+                        <button type="button" class="btn btn-custom btn-custom-primary btn-shop-edit">
+                            <img src="assets/icons/button-icon-pencil.svg" alt="">
+                            <span>Редактировать</span>
+                        </button>
+                        <button type="button" class="btn btn-custom btn-custom-secondary btn-shop-cancel">
+                            <img src="assets/icons/button-icon-cancel.svg" alt="">
+                            <span>Редактировать</span>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">12345</th>
+                    <td>Дипломная работа</td>
+                    <td class="text-break">http://www.work5.ru/services</td>
+                    <td class="d-flex">
+                        <button type="button" class="btn btn-custom btn-custom-primary btn-shop-edit">
+                            <img src="assets/icons/button-icon-pencil.svg" alt="">
+                            <span>Редактировать</span>
+                        </button>
+                        <button type="button" class="btn btn-custom btn-custom-secondary btn-shop-cancel">
+                            <img src="assets/icons/button-icon-cancel.svg" alt="">
+                            <span>Редактировать</span>
+                        </button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- ------------------------------Shops table-------------------------------- -->
+
+    </div>
+    <!-- ----------------------------------/Right content-------------------------------- -->
+
+</div>
+</body>
+</html>

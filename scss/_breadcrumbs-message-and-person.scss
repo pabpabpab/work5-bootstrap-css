@@ -1,0 +1,122 @@
+@import "vars-custom";
+
+.breadcrumb-message-and-person-wrapper {
+  margin: 0 0 0.65rem 0;
+  padding: 0;
+}
+
+.breadcrumb-custom {
+  font-weight: 500 !important;
+  color: $breadcrumb-color-custom;
+  line-height: 0.75rem;
+}
+
+.breadcrumb-link-custom {
+  position: relative !important;
+  color: $breadcrumb-color-custom;
+}
+
+/*
+.breadcrumb-link-custom::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0.44rem;
+  height: 0.44rem;
+  right: -0.63rem;
+  top: 0.31rem;
+  border-top: 1.7px solid $breadcrumb-color-custom;
+  border-right: 1.7px solid $breadcrumb-color-custom;
+  @include rotate-mixin(45deg);
+}
+*/
+
+.message-icon-and-person-wrapper {
+  width: 21rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.card-message-icon {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D4D4D4;
+  background-color: rgba(255, 255, 255, 0);
+
+  &-stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+  }
+
+  &-envelope-link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+      width: 22.4px;
+      margin: 0 !important;
+    }
+
+    & span {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 7px;
+      height: 7px;
+      @include border-radius-mixin(50%);
+      background-color: #E42626;
+      transform: translate(50%,-50%);
+      outline: 3px solid #ffffff;
+    }
+  }
+}
+
+.card-person {
+  width: 16rem;
+  height: 4rem;
+  border: 0;
+  @include shadow-mixin(0 0 16px rgba(136, 167, 245, 0.18));
+}
+
+.card-img-person {
+  width: 45px;
+  @include border-radius-mixin(50%);
+  border: 2.3px solid #D9D9D9;
+}
+
+.card-link-person {
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #7D7D7D;
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+  }
+}
+
+.card-person-overflow-x-stub {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.1rem;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+

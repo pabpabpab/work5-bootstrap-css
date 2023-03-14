@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "html-body.css",
+	"sources": [
+		"../../scss/html-body.scss"
+	],
+	"sourcesContent": [
+		"\r\n\r\nbody {\r\n  // font-size: 16px;\r\n  // padding: 3rem 1.5rem;\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}

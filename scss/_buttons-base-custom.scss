@@ -1,0 +1,19 @@
+.btn-custom {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #ffffff;
+  border: none;
+  @include border-radius-mixin(0.2rem);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-custom-primary {
+  background-color: $button-color-primary;
+}
+
+.btn-custom-secondary {
+  background-color: $button-color-secondary;
+}
